@@ -9,6 +9,6 @@ Made a couple of changes;
 - Checked the list for any single non-kanji characters and removed them.
 - Checked each word against an implementation of JMdict, any words that did not match were removed.
 
-This leaves us with a (hopefully) clean collection of 32,016 vocabulary words and 3,521 kanji ordered by their frequency as collected in the University of Leeds corpus.
+This leaves us with a (hopefully) clean collection of 32,016 vocabulary words and 3,521 kanji ordered by their frequency as collected in the University of Leeds corpus. This process does not remove multiple entries for the same word (e.g. written in kana vs kanji), but for most use cases this is preferrable.
 
 The original corpus is distributed by the University of Leeds under the CC BY 2.5 Deed license.
